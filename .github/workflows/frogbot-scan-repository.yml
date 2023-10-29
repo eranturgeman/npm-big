@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         # The repository scanning will be triggered periodically on the following branches.
-        branch: [ "latest" ]
+        branch: [ "latestv" ]
     steps:
       - uses: actions/checkout@v3
         with:
